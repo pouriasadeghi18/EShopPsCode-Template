@@ -181,3 +181,98 @@ border-right: 1px solid #dfdfdf
         width: 34px;
         height: 34px;
     }
+
+    /*mega menu and list**/
+    .responsive-list{
+        position: absolute;
+        right: 30px;
+        font-size: 32px;
+        color: #686868;
+        display: none
+    }
+    .mega-menu{
+        width: 100%;
+        background-color: #fff;
+        padding: 0;
+        border-top: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf;
+        position: relative;
+    }
+    .mega-menu .container{
+        position: relative;
+    }
+    .mega-menu .container > ul > li{
+        float: right;
+        padding: 10px 0 10px 15px;
+        font-size: 15px;
+        font-weight: normal !important;
+    }
+    .mega-menu .container > ul > li > a{
+        color: #8E8D8D
+    }
+    .mega-menu .container > ul > li > a:hover{
+        color: #EE2D2D
+    }
+    .form-search{
+        width: 45px;
+        border-right: 1px solid #dfdfdf;
+        border-left: 1px solid #dfdfdf;
+        position: absolute;
+        left: 14px;
+        top: 0;
+        padding: 0;
+        height: 41px;
+        background-color: #fff;
+    }
+    .form-search > span{
+        width: 45px;
+        font-size: 21px;
+        color: #848484;
+        padding: 5px 0;
+        text-align: center;
+        display: block;
+    }
+    .form-search > span:hover{
+        cursor: pointer;
+        color: #008DDE
+    }
+    .form-search form{
+        width: 265px;
+        position: absolute;
+        left: -1px;
+        top: 41px;
+        background-color: #fff;
+        border:1px solid #dfdfdf;
+        padding: 5px;
+        -webkit-border-bottom-right-radius: 3px;
+        -webkit-border-bottom-left-radius: 3px;
+        -moz-border-radius-bottomright: 3px;
+        -moz-border-radius-bottomleft: 3px;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        display: none;
+        z-index: 100
+    }
+    
+    .form-search form input{
+        width: 200px;
+        border:1px solid #dfdfdf;
+        line-height: 35px;
+        padding: 0 10px;
+        color: #AAA9A9;
+        font-size: 14px;
+        float: right;
+    }
+    
+    .form-search form button{
+        border:0;
+        line-height: 36px;
+        padding: 0 10px;
+        color: #fff;
+        background-color: #008DDE;
+        font-size: 15px;
+        float: left;
+    }
+    .form-search form button:hover{
+        background-color: #087EB9
+    }
