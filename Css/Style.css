@@ -276,3 +276,85 @@ border-right: 1px solid #dfdfdf
     .form-search form button:hover{
         background-color: #087EB9
     }
+
+    /**end megamenu **/
+
+
+
+/**Right-side */
+.right-side-content {
+    padding-right: 0
+}
+.left-side-content {
+    padding-left: 0
+}
+.right-side-content section{
+    border:1px solid #dfdfdf;
+    margin-bottom: 15px
+}
+.right-side-content section header{
+    padding: 10px 15px;
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 5px
+}
+.right-side-content section header h3{
+    line-height: 22px;
+    font-size: 16px;
+    color: #686868
+}
+
+
+
+/** end-Right-site */
+
+
+
+
+
+
+    /** category*/
+    .category-side article{
+        padding: 20px
+    }
+    .category-menu > li > ul{
+        padding: 10px 0
+    }
+    .category-menu > li > ul li{
+        padding: 5px 0;
+        line-height: 22px
+    }
+    .category-menu > li{
+        position: relative; 
+        padding-right: 22px; 
+        line-height: 26px;
+        padding-bottom: 10px
+    }
+    .category-menu > li:before{
+        position: absolute; 
+        font-family: 'Awsome'; 
+        content: '\f115'; 
+        font-size: 15px; 
+        color: #69686D; 
+        right: 0; 
+        top: -5px
+    }
+    .category-menu > li ul li{
+        position: relative; 
+        padding-right: 15px
+    }
+    .category-menu > li a{
+        color: #575757
+    }
+    .category-menu > li a:hover{
+        color: #DD0C0C; 
+        padding-right: 10px
+    }
+    .category-menu > li ul li:before{
+        position: absolute; 
+        font-family: 'Awsome'; 
+        content: '\f0d9'; 
+        color: #69686D; 
+        font-size: 15px;
+        right: 0; 
+        top: 3px
+    }
