@@ -1,0 +1,120 @@
+
+  @font-face {
+    font-family: "IRANSans";
+    src: url("../Font/IRANSansWeb.woff") format("woff"),url("../Font/IRANSansWeb.ttf") format("ttf"),url("../Font/IRANSansWeb.eot") format("eot");
+    font-style:normal;
+    font-weight:normal;
+    text-rendering:optimizeLegibility;
+  }
+
+
+  @font-face {
+    font-family: "Awsome";
+    src:url("../Font/Font-Awsome/fa-v4compatibility.ttf") format("ttf"), url("../Font/Font-Awsome/fa-solid-900.woff2") format("woff2"),url("../Font/Font-Awsome/fa-regular-400.woff2") format("woff2"),url("../Font/Font-Awsome/fa-brands-400.ttf") format("ttf"),url("../Font/Font-Awsome/fa-regular-400.woff2") format("woff2"),url("../Font/Font-Awsome/fa-regular-400.ttf") format("ttf");
+    font-style:normal;
+    font-weight:normal;
+    text-rendering:optimizeLegibility;
+  }
+
+
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'IRANSans','Awsome';
+    font-size: 14px;
+    color: #505050;
+    background-color: #fff;
+    overflow-x: hidden;
+  }
+  
+  /***********Default setting************/
+a,i,form button,.last-products article > div > div .buy-button{ outline: none;  text-decoration: none; -webkit-transition : all 0.2s linear 0s; -moz-transition : all 0.2s linear 0s; -ms-transition : all 0.2s linear 0s; -o-transition : all 0.2s linear 0s; transition : all 0.2s linear 0s}
+a:hover,a:active{text-decoration: none; color: #008DDE;outline: none;}
+a:visited,a:link{text-decoration: none;outline: none;}
+a{color: #000}
+i,span,label,a{display: inline-block}
+ul{list-style: none !important; list-style-type: none !important; margin: 0; padding: 0}
+h1,h2,h3,h4,h5,h6{  font-size: 14px;  margin: 0;  padding: 0}
+.border-radius,.comment-layer,.comment-layer header span,
+.comment-layer ul img,.comment-layer ul li,.comment-layer ul li .reply-button{ border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+a,span,label,i,p,div{font-weight: normal !important}
+
+/***********clearFix************/
+.top-menu ul:after, .clientarea ul:after,.logo-layer:after,.mega-menu .container > ul:after,
+.mega-menu .container > ul > li > ul:after,.form-search form:after,
+.right-side-content section article ul li:after,.blog-side ul li:after,.last-products article div > div:after,
+.right-side-content .basket-side article ul li:after,.pagination-layer:after,.archive-news article:after,
+.detail-product > div:after,.basket-style .tbl-head ul:after,
+.basket-style .tbl-body ul:after,.basket-style .tbl-body ul li:first-child:after{display: block; clear: both; content: ''; visibility: hidden; height: 0; line-height: 0}
+
+
+.top-nav{
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #fff;
+    position: relative;
+}
+.top-nav .container .right-nav{
+    padding-right: 0
+}
+.top-nav .container .left-nav{
+    padding-left: 0
+}
+.top-nav .clientarea ul li{
+    float: right;
+    padding: 0;
+    border-left: 1px solid #dfdfdf
+}
+.top-nav .clientarea ul li a{
+    padding: 0 15px;
+    display: block;
+    line-height: 35px
+}
+.top-nav .clientarea ul li a label{
+    margin: 0
+}
+.top-nav .clientarea ul li a i{
+    color: #008DDE;
+    font-size: 18px;
+    position: relative;
+    margin-left: 4px;
+    top: 2px
+}
+.top-nav .clientarea ul li a span{
+    color: #fff;
+    background-color: #008DDE;
+    margin-right: 6px;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    line-height: 23px;
+    text-align: center;
+    position: relative;
+    top: -1px
+}
+.top-nav .clientarea ul li:first-child {
+    border-right: 1px solid #dfdfdf;
+}
+
+.top-nav .socials ul li {
+float: left;
+border-right: 1px solid #dfdfdf
+}
+
+.top-nav .socials ul li:first-child {
+    border-left: 1px solid #dfdfdf;
+}
+
+.top-nav .socials ul li a {
+    display: block;
+    padding: 0 15px;
+    font-size: 20px;
+    line-height: 35px
+}
+
+.top-nav .socials ul li a .fa-facebook {
+        position: relative;
+        top: 2px
+    }
+
