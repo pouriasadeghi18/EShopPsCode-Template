@@ -47,7 +47,7 @@ a,span,label,i,p,div{font-weight: normal !important}
 .detail-product > div:after,.basket-style .tbl-head ul:after,
 .basket-style .tbl-body ul:after,.basket-style .tbl-body ul li:first-child:after{display: block; clear: both; content: ''; visibility: hidden; height: 0; line-height: 0}
 
-
+  /****Start Top Menu***/
 .top-nav{
     border-bottom: 1px solid #dfdfdf;
     background-color: #fff;
@@ -112,9 +112,72 @@ border-right: 1px solid #dfdfdf
     font-size: 20px;
     line-height: 35px
 }
-
 .top-nav .socials ul li a .fa-facebook {
         position: relative;
         top: 2px
     }
 
+    /****End Top Menu***/
+
+
+    .header-site{
+        background-color:#f9f9f9;
+        padding: 15px 0
+    }
+    .header-site .logo-layer   {
+        padding-right: 0
+    }
+    .header-site .left-header-site {
+        padding-left: 0
+    }
+    .header-site .logo-layer .logo {
+        float: right;
+        margin-left: 20px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .header-site .logo-layer .logo img {
+        max-width: 100px;  max-height: 100px;
+    }
+    
+    .logo-layer h1 {
+        font-size: 28px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        color: #3677D8;
+    }
+    .logo-layer h1 span{
+        color: #EE2D2D
+    }
+    .logo-layer h2{
+        color: #686868;
+        font-size: 20px;
+    
+    }
+    
+    .left-header-site{
+        text-align: left;
+    }
+    .left-header-site h5{
+        font-size: 24px;
+        color: #008DDE;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    .left-header-site h3{
+        font-size: 28px;
+        color: #008DDE;
+    }
+     
+    .left-header-site h3 i{
+        margin-right: 13px;
+        position: relative;
+        top: 11px;
+    }
+    
+    
+    .icon-phone{
+        background:url('../Image/phone.png');
+        width: 34px;
+        height: 34px;
+    }
