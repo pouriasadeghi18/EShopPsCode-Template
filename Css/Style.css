@@ -478,8 +478,11 @@ div {
 .last-products article > div > div {
   display: block;
   padding: 1px;
-  border: 1px solid #dfdfdf;
+
   background-color: #fff;
+}
+.p-border{
+  border: 1px solid #dfdfdf;
 }
 .last-products article h6 {
   text-align: center;
@@ -768,3 +771,90 @@ footer .top-footer header h3 {
   .logo-layer h1{font-size: 20px; padding-top: 15px}
   .logo-layer h2{font-size: 15px}
 }
+
+.right-side-content .basket-side article ul{
+  width: 100%;
+}
+.right-side-content .basket-side article{
+  padding: 5px;
+}
+.right-side-content .basket-side article ul li{
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px dotted #dfdfdf
+}
+.right-side-content .basket-side article ul li:last-child{
+  border-bottom: 0
+}
+.right-side-content .basket-side article ul li img{
+  width: 25%;
+  float: right;
+  border:1px solid #dfdfdf;
+}
+.right-side-content .basket-side article ul li .left-basket{
+  width: 70%;
+  padding-right: 10px;
+  float: right;
+}
+.right-side-content .basket-side article ul li a{
+  color: #757676;
+  padding-top: 5px;
+  line-height: 20px
+}
+.right-side-content .basket-side article ul li a:hover{
+  color: #008DDE
+}
+.right-side-content .basket-side article ul li span{
+  color: #008DDE;
+  width: 30px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  padding: 0 4px;
+  font-family: 15px;
+  border: 1px solid #dfdfdf;
+  margin-right:10px;
+}
+.right-side-content .basket-side .show-basket-button{
+  color: #fff;
+  background-color: #1FB415;
+  padding: 5px 0;
+  text-align: center;
+  width: 100%;
+  margin: 5px 0 0;
+  line-height: 23px
+}
+.right-side-content .basket-side .show-basket-button:hover{
+  background-color: #1E9810
+}
+.compare-side .show-compare-list{
+  color: #fff;
+  background-color: #1FB415;
+  padding: 5px 0;
+  text-align: center;
+  width: 100%;
+  margin: 5px 0 0;
+  line-height: 23px
+}
+.compare-side .show-compare-list:hover{
+  background-color: #1E9810
+}
+.compare-side article{
+  padding: 5px
+}
+.compare-side article ul{
+  margin-bottom: 5px
+}
+.compare-side article ul li{
+  line-height: 23px;
+  padding: 5px 5px
+}
+.compare-side article ul li i{
+  color: #E24848;
+  font-style: normal;
+  font-size: 13px;
+  margin-left: 4px;
+  position: relative;
+  top: 2px
+}
+
