@@ -858,3 +858,8 @@ footer .top-footer header h3 {
   top: 2px
 }
 
+.item-owl{
+  border: 1px solid #c3ccf3;
+  box-shadow: 5px 5px 10px -7px #007af3;
+  background-color:#fff;
+}
