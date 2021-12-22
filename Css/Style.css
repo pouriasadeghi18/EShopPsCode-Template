@@ -709,6 +709,7 @@ footer .top-footer header h3 {
   .basket-style .tbl-body .product-info-left-side{
     float: none;
     width: 100%
+    
   }
   .basket-style .tbl-footer{
     width: 100%
@@ -862,4 +863,188 @@ footer .top-footer header h3 {
   border: 1px solid #c3ccf3;
   box-shadow: 5px 5px 10px -7px #007af3;
   background-color:#fff;
+}
+
+
+.baskets-style{
+  margin-bottom: 25px
+}
+.basket-style .tbl-head{
+width: 100%;
+position: relative;
+-webkit-border-top-left-radius: 4px;
+-webkit-border-top-right-radius: 4px;
+-moz-border-radius-topleft: 4px;
+-moz-border-radius-topright: 4px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+border:1px solid #dfdfdf;
+background-color: #f2f2f2
+}
+.basket-style .tbl-head ul li{
+width: 25%;
+float: right;
+text-align: center;
+color: #6B6B6B;
+font-size: 16px;
+line-height: 22px;
+padding: 10px ;
+border-left: 1px solid #dfdfdf
+}
+.basket-style .tbl-head ul li:last-child{
+border-left: 0
+}
+/*Body*/
+.basket-style .tbl-body{
+background-color: #fff;
+border-right: 1px solid #dfdfdf;
+border-left: 1px solid #dfdfdf;
+width: 100%
+}
+.basket-style .tbl-body ul {
+border-bottom: 1px solid #dfdfdf;
+}
+.basket-style .tbl-body ul li{
+width: 25%;
+float: right;
+padding: 10px;
+border-left: 1px solid #dfdfdf;
+min-height: 100px;
+position: relative;
+}
+.basket-style .tbl-body ul li:last-child{
+border-left: 0
+}
+.basket-style .tbl-body ul li:nth-child(2),
+.basket-style .tbl-body ul li:nth-child(3),
+.basket-style .tbl-body ul li:nth-child(4){
+text-align: center;
+}
+.basket-style .tbl-body .product-image{
+width: 28%;
+float: right;
+}
+.basket-style .tbl-body .delete-button{
+font-family: tahoma;
+font-size: 20px;
+font-weight: bold;
+color: #EE2D2D;
+position: absolute;
+left: 10px;
+top: 5px;
+font-style: normal;
+}
+.basket-style .tbl-body .product-image img{
+width: 100%;
+max-width: 100%;
+padding: 1px;
+border:1px solid #dfdfdf;
+max-height: 125px;
+}
+.basket-style .tbl-body .product-info-left-side{
+float: right;
+width: 72%;
+padding-right: 10px
+}
+.basket-style .tbl-body .product-title{
+line-height: 21px;
+font-size: 14px;
+color: #4477D8;
+padding: 10px 0
+}
+.basket-style .tbl-body .product-title:hover{
+color: #2B2B2B
+}
+.basket-style .tbl-body .product-sizes{
+color: #6B6B6B
+}
+.basket-style .tbl-body p {
+padding: 15px 0
+}
+.basket-style .tbl-body p label{
+color: #E97D23;
+padding: 0 5px
+}
+.basket-style .tbl-body p span{
+margin-left: 10px;
+color: #6b6b6b
+}
+.basket-style .tbl-body .lbl-price{
+color: #18AA10;
+font-size: 18px;
+padding: 15px 0
+}
+.basket-style .tbl-body .lbl-hidden{
+display: none
+}
+/*Footer*/
+.basket-style .tbl-footer{
+width: 50%;
+border:1px solid #dfdfdf;
+border-top: 0;
+float: left;
+-webkit-border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 4px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 4px;
+border-bottom-right-radius: 4px;
+border-bottom-left-radius: 4px;
+margin-bottom: 20px
+}
+.basket-style .tbl-footer ul{
+width: 100%
+}
+.basket-style .tbl-footer ul li{
+width: 100%;
+border-bottom: 1px solid #dfdfdf;
+line-height: 24px;
+padding: 10px 15px;
+color: #6b6b6b;
+font-size: 16px
+}
+.basket-style .tbl-footer ul li:last-child{
+border-bottom: 0
+}
+.basket-style .tbl-footer .total-price{
+color:#18AA10;
+font-size: 18px
+}
+
+.basket-style .tbl-footer .tax-price{
+color:#1C7EBB
+}
+.hidden-head{
+  display: block;
+}
+.hidden-head{
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px;
+  border:1px solid #dfdfdf;
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  text-align: center;
+  display: none;
+  background-color: #f2f2f2;
+    width: 100%;
+    color: #2D2D2D
+}
+.submit-basket-button{
+  clear: both;
+  padding: 10px 15px;
+  border:0;
+  background-color:#1CBB1C;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 21px;
+  float: left;
+  width: 50%
+}
+.submit-basket-button:hover{
+  background-color: #0FA90F
 }
