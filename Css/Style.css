@@ -493,7 +493,7 @@ div {
   top: 2px;
 }
 .last-products article > div > div img {
-  display: block;
+display: block;
   margin-bottom: 8px;
   -webkit-border-top-left-radius: 4px;
   -webkit-border-top-right-radius: 4px;
@@ -502,8 +502,10 @@ div {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   padding-bottom: 1px;
-  border-bottom: 1px solid #dfdfdf;
+
   width: 100%;
+
+  padding: 40px;
 }
 .last-products article > div > div h2 {
   font-size: 14px;
@@ -565,14 +567,14 @@ div {
 }
 .archive-products article > div {
   padding: 10px !important;
+  
 
 }
-.prodocts{
-  border-radius: 5px;
-}
+
 
 .archive-products article > div > div {
-  margin-bottom: 0 !important;
+  margin-bottom: 10px !important;
+  border-radius: 5px;
 }
 
 .pagination-layer {
