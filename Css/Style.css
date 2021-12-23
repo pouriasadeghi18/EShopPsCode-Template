@@ -355,9 +355,7 @@ div {
 .right-side-content {
   padding-right: 0;
 }
-.left-side-content {
-  padding-left: 0;
-}
+
 .right-side-content section {
   border: 1px solid #dfdfdf;
   margin-bottom: 15px;
@@ -1058,6 +1056,204 @@ color:#1C7EBB
   display: none
 }
 
+
+.internal-style section{
+  border:1px solid #dfdfdf;
+}
+
+.internal-style section header{
+  border-bottom: 1px solid #dfdfdf;
+  padding: 5px
+}
+.internal-style section header h2,.internal-style section header h3{
+  border-right: 0;
+  color: #686868
+}
+.internal-style section form{
+  padding: 15px
+}
+[type=email], [type=number], [type=tel], [type=url]{
+  direction: rtl;
+}
+
+
+
+.detail-product > div{
+  padding: 30px 0
+}
+.detail-product > div span{
+  float: right;
+  line-height: 35px;
+  font-size: 22px;
+  color: #0FA412
+}
+.detail-product > div .add-to-card-link{
+  float: left;
+  background-color: #0FA412;
+  color: #fff;
+  padding: 4px 15px;
+  line-height: 30px
+}
+.detail-product > div .add-to-card-link:hover{
+  background-color: #1E9810
+}
+.detail-product > p{
+  line-height: 26px;
+  text-align: justify;
+  color: #757575;
+  font-size: 15px
+}
+.product-gallery{
+  padding-right: 0
+}
+.thumbnails-image .row > div img{
+  border:1px solid #dfdfdf;
+  padding: 1px;
+  display: block;
+  width: 100%;
+  max-width: 100%
+}
+.tabs-product #main-content,.tabs-product #properties{
+  padding: 20px;
+}
+.tabs-product #main-content h3,.tabs-product #properties h3{
+  color:#008DDE;
+  font-size: 18px;
+  padding: 10px 0
+}
+.tabs-product #main-content p,.tabs-product #properties p{
+  color: #717271;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  margin-bottom: 10px
+}
+.tabs-product #main-content ul,.tabs-product #properties ul{
+  padding: 10px 
+}
+.tabs-product #main-content ul li,.tabs-product #properties ul li{
+  line-height: 26px;
+  color: #717271;
+  position: relative;
+  padding-right: 12px
+}
+ #home ul li:before , #profile ul li:before{
+  content: '\f104';
+  color: #008DDE;
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 14px;
+  font-family: 'Awsome'
+}
+
+.tabs-product #price-chart > div{
+  padding: 30px
+}
+
+.tabs-product .tab-content{
+  border:1px solid #DFDFDF;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.tabs-product .nav-tabs{
+  border:0
+}
+.tabs-product .nav-tabs > li {
+  background: #f2f2f2 none repeat scroll 0 0;
+  margin-left: 5px;
+  margin-right: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  position: relative;
+  top: -1px;
+  color: #5F5F5F;
+  font-size: 16px
+}
+.tabs-product .nav-tabs > li a{
+  color: #5F5F5F;
+}
+.tabs-product .nav-tabs > li a{
+  color: #5F5F5F;
+}
+.tabs-product .nav-tabs > li a:hover{
+  color:#008DDE;
+}
+
+.tags-layer{
+  border:1px solid #dfdfdf;
+  background-color: #fff;
+  padding: 5px 40px 5px 15px;
+  position: relative;
+}
+.tags-layer i{
+  position: absolute;
+  right: 13px;
+  font-size: 16px;
+  color: #B7B7B7;
+  top: 13px
+}
+.tags-layer a{
+  background-color: #E5E5E5;
+  padding: 0 8px;
+  line-height: 22px;
+  color: #888685;
+  margin: 5px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.tags-layer a:hover{
+  background-color:#DF7923;
+  color: #fff;
+  
+}
+
+/*************comments**************/
+
+.comment-layer .comment-list li:before{
+  content: '';
+}
+.comment-layer .btn.btn-primary{
+  background-color: #008DDE;
+  border:0;
+  border-bottom:3px solid #066595;
+}
+.comment-layer .btn.btn-primary:hover{
+  background-color: #999A9A;
+  border-bottom:3px solid #ADADAD;
+  color: #505050
+}
+
+
+.comment-layer{margin-top: 15px; margin-bottom: 15px; border:1px solid #dfdfdf; padding: 15px 10px 0}
+.comment-layer .btn.btn-primary{width: 100%; margin-top: 15px}
+.comment-layer textarea{min-height: 83px}
+.comment-layer header {position: relative;}
+.comment-layer header h3{  font-size: 18px}
+.comment-layer header span{position: absolute; padding: 0 15px; left: 0; top:-2px;  line-height: 30px; color: #505050; border:1px solid #f2f2f2; }
+.comment-layer h6{width: 100%; line-height: 25px; padding: 15px 0; color: #505050; font-size: 18px; border-bottom: 1px solid #f2f2f2}
+.comment-layer > ul{margin: 0; padding: 15px 0}
+.comment-layer > ul h5{font-size: 13px; line-height: 12px; padding-bottom: 10px}
+.comment-layer > ul p{font-size: 13px; line-height: 22px; text-align: justify;}
+.comment-layer > ul img{margin: 0 0 0 10px; float: right;}
+.comment-layer > ul li{border:1px solid #f2f2f2; padding:20px 15px 15px; margin-bottom: 10px; position: relative;}
+.comment-layer > ul li:after{display: block; clear: both; content: ''; visibility: hidden;; height: 0; line-height: 0}
+.comment-layer > ul li a{line-height: 35px}
+
+.comment-layer ul li { position: relative}
+.comment-layer ul li .reply-button{ background-color: #4e4d4d; color: #fff; left: 10px; top: 10px; z-index: 1000; line-height: 30px; padding: 0 10px; position: absolute;}
+.comment-layer ul li .reply-button:hover{ background-color: #8F8E8E}
+
+
 @media screen and (max-width : 767px) {
   .top-nav .container .row .left-nav,.header-site .left-header-site{display: none}
   .top-nav .container  .row .right-nav .clientarea ul {display: flex; justify-content: center;  }
@@ -1137,3 +1333,5 @@ color:#1C7EBB
     margin-left: 5px
   }
 }
+
+
